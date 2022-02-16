@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:rgb(184, 183, 183)
+}
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+.AreaInput{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AreaInput > input{
+    width: 100%;
+    margin-bottom: 15px;
+    height: 40px;
+    background-color: rgb(24, 23, 23);
+    border: none;
+    border-radius:7px ;
+    color:white;
+    padding: 0 10px;
+    font-size:20px
+}
+
+.AreaInput > button{
+    width:200px;
+    height: 40px;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    cursor: pointer;
+    background-color:#6178e0;
+    border-radius:6px;
+    margin-top:10px ;
+    color:white;
+}
+
+h2{
+    margin-top:20px;
+    font-family: 'Rubik', sans-serif;
+}
